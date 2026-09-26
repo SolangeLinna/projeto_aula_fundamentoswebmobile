@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-attachment: fixed;
+    background-color: #F2E0C9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: auto;
+    padding: 40px 16px 60px;
+    background-image: linear-gradient(to top, #ffffff 5%,#7B1644 25%);
+    
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+}
+h2{
+    color: #ffffff;
+}
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 18px 118px;
+    margin: -11px 0px;
+} 
+.vision{
+    color: #7B1644;
+    text-align: center;
+    text-decoration: underline 2px;
+    margin: 10px 0px;
+}
+.navheader{
+    text-align: center;
+}
+.main-nav{
+    display: inline-block;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 16px;
+   
+}
+.frasedodia{
+    font-size: 28px;
+    font-weight: normal;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(to top, #ffffff 90%, #cf96a1 30%, #ffffff 90%);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+     
+}
+.titulofrase{
+    color: #7B1644;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.citacao{
+    text-align: center;
+    color: #7B1644;
+    font: 25px normal bold;
+}
+.odio{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.button{
+    font: normal bold 20px "cambria";
+    text-align: center;
+    height: auto;
+    color: #fffffe;
+    background-color: #7B1644;
+    border-radius: 5px;
+    border-color: #F2E0C9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.button:hover{
+    background-color: #570228;
+}
+.buttoncaralho{
+    padding: 50px 16px 10px;
+    text-align: center;
+}
+.mainbutton{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 36px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.calendario{
+  width: auto;
+  background: #ffffff;
+  border-radius: 18px;
+  overflow: hidden;
+  margin: 10px 30px 30px;
+}
+
+.titulocalendario{
+  color: #570228;
+  padding: 16px;
+  text-align: center;
+}
+.diassemana{
+    display: grid;
+    width: auto;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 10px 30px 30px;
+}
+
+.dias{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.dias div {
+  text-align: center;
+  padding: 12px 0;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+footer{
+    background-color: #570228;
+    padding: 10px 16px 20px;
+    margin-top: 60px;
+    text-align: center;
+}
+.footer{
+    color: #ffffff;
+    font: 20px normal;
+}
+.footerfooter{
+color: #ffffff;
+}
